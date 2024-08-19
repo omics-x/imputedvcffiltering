@@ -1,0 +1,8 @@
+version: 1.0
+workflows:
+  - subclass: WDL
+    primaryDescriptorPath: /filtering_index_vcf_files.wdl
+    readMePath: /README.md
+    authors:
+      - name: Shahzad Ahmad
+        email: shahzad.ahmad@well.ox.ac.uk
